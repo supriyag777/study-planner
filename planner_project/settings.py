@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$i5ok!!39#=x!ake@m%^aa)be@6%_1^e@$s1iz38!kg25#sr*z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['study-planner-32zw.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
