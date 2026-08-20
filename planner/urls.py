@@ -28,4 +28,7 @@ urlpatterns = [
     path('tasks/edit/<int:task_id>/', views.edit_task, name='edit_task'),
     path('tasks/delete/<int:task_id>/', views.delete_task, name='delete_task'),
     path('tasks/toggle/<int:task_id>/', views.toggle_task_status, name='toggle_task_status'),
+    path('admin/', admin.site.urls),
+    # Connects your root URL '/' directly to your planner app
+    path('', include('planner.urls')),
 ]
